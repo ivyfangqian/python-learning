@@ -1,4 +1,4 @@
-#-*-coding:utf-8-*-
+# -*-coding:utf-8-*-
 
 # 面向对象编程——Object Oriented Programming，简称OOP，是一种程序设计思想。
 # OOP把对象作为程序的基本单元，一个对象包含了数据和操作数据的函数。
@@ -29,11 +29,12 @@
 # 像是生产线上根据同一个模具生产的不同规格的玩具
 
 # 假设我们要处理学生的信息，为了表示一个学生的信息，面向过程的程序可以用一个dict表示：
-dict1 = {'name':'xiaoming','age':20}
-dict2 = {'name':'xiaohong','age':19}
+dict1 = {'name': 'xiaoming', 'age': 20}
+dict2 = {'name': 'xiaohong', 'age': 19}
+
 
 def print_stuinfo(studict):
-        print '%s: %s' % (studict('name'), studict('age'))
+    print '%s: %s' % (studict('name'), studict('age'))
 
 
 # 采用面向对象的程序设计思想，我们首选思考的不是程序的执行流程，
@@ -58,19 +59,20 @@ class Student(object):
     # 类中的方法，参数中一定要传递self,self指的是对象自己
     # 我们根据图纸来建造房子，房子造好了，每个人都要回自己的家，self相当于门牌号
     def __init__(self, name, age):
-        self.name = name #类中使用成员变量，用self.来访问
+        self.name = name  # 类中使用成员变量，用self.来访问
         self.age = age
 
     # 打印学生信息
     def print_stuinfo(self):
         print '%s: %s' % (self.name, self.age)
 
+
 # 创建类的实例，并传递参数，这里传递的参数，由__init__()方法接收
-student = Student('xiaoming',20)
+student = Student('xiaoming', 20)
 # 使用 实例.方法 来调用打印学生信息
 student.print_stuinfo()
 # 使用 实例.成员变量名 来访问成员变量(属性)
-print student.name,student.age
+print student.name, student.age
 # 用 类名.__doc__ 来查阅类的文档说明
 print Student.__doc__
 
@@ -94,7 +96,7 @@ del student
 #       对数据，方法的封装--》类
 # 继承：子类继承父类的属性和方法
 # 多态：不同对象对同一方法响应不同的情况
-list1 = [3,2,6,7,8]
+list1 = [3, 2, 6, 7, 8]
 
 list1.append(9)
 print list1
@@ -102,12 +104,14 @@ print list1
 list1.sort()
 print list1
 
+
 # 定义一个子类，继承list，类体中，什么都不做
 class SubList(list):
     pass
 
-print '*'*30
-subList =  [3,2,6,7,8]
+
+print '*' * 30
+subList = [3, 2, 6, 7, 8]
 
 subList.append(9)
 print subList
@@ -117,15 +121,27 @@ print subList
 
 
 # 多态
+# 如果子类中有属性或者方法与父类属性、方法名字一致，
+# 会覆盖父类的属性和方法
 class A(object):
+    name = 'A'
+
     def fun(self):
         print 'A'
 
-class B(A):
-    # pass
-    # 子类方法覆盖父类方法
-    def fun(self):
-        print 'B'
 
-b=B()
+class B(A):
+    pass
+    # # 子类属性覆盖父类方法
+    # name = 'B'
+    #
+    # # 子类方法覆盖父类方法
+    # def fun(self):
+    #     print 'B'
+
+
+a = A()
+a.fun()
+
+b = B()
 b.fun()

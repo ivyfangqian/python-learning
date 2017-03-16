@@ -1,4 +1,5 @@
 #-*-coding:utf-8-*-
+
 # 类的私有属性与方法
 # 默认情况下，python中属性都是公开的，可以直接访问
 # 私有属性：__private_attr，以双下划綫开头
@@ -18,6 +19,7 @@ class JustCounter:
 		return  self.__secretCount
 	def __print_info(self):
 		print '私有方法'
+
 counter = JustCounter()
 counter.count()
 counter.count()
@@ -26,8 +28,9 @@ print '----------------------'
 # print counter.__secretCount  # 报错，实例不能访问私有变量
 # counter.__print_info()
 
+# python使用的是名字重整的技术，改变了私有变量的值：_类名__变量名
 # 如果我们一定要访问私有变量的话
-print counter._JustCounter__secretCount
+print counter._JustCounter__secretCount #虽然可以，但是我们并不推荐使用这种方法
 print counter.get_secret_count()
 
 # 先用set方法赋值，再用get取值
