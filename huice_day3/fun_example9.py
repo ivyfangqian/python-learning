@@ -166,6 +166,9 @@ print reduce(lambda x, y: x + y, range(1,101))
 # 写一个函数，实现冒泡排序,按照升序排列
 
 def bubble_sort(aList = []):
+    if type(aList).__name__ != 'tuple' and type(aList).__name__ != 'list':
+        print '输入不合法'
+        return
     if type(aList).__name__=='tuple':
         aList = list(aList)
     if type(aList).__name__=='list':

@@ -10,6 +10,7 @@
 
 # 如何使用包中的模块，两种方法
 # 第一种：import 包.子包.模块
+# 第一种：import 包.子包.模块
 # 第二种：from 包.子包 import 模块
 
 import test.CurrencyConverter as cc

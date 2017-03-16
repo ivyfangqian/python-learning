@@ -55,7 +55,9 @@ class Student(object):
 
     # __init__()方法是一种特殊的方法。我们称之为初始化方法，
     # python在创建类的实例的时候，会调用这个类的__init__()方法
-    def __init__(self, name, age): #类中的方法，参数中一定要传递self
+    # 类中的方法，参数中一定要传递self,self指的是对象自己
+    # 我们根据图纸来建造房子，房子造好了，每个人都要回自己的家，self相当于门牌号
+    def __init__(self, name, age):
         self.name = name #类中使用成员变量，用self.来访问
         self.age = age
 
@@ -86,4 +88,44 @@ print Student.__dict__
 del student
 # print student
 
+# 面向对象的三个特点：封装，继承，多态
+# 封装：对数据的封装--》列表，元组，字典
+#       对脚本语句的封装--》函数
+#       对数据，方法的封装--》类
+# 继承：子类继承父类的属性和方法
+# 多态：不同对象对同一方法响应不同的情况
+list1 = [3,2,6,7,8]
 
+list1.append(9)
+print list1
+
+list1.sort()
+print list1
+
+# 定义一个子类，继承list，类体中，什么都不做
+class SubList(list):
+    pass
+
+print '*'*30
+subList =  [3,2,6,7,8]
+
+subList.append(9)
+print subList
+
+subList.sort()
+print subList
+
+
+# 多态
+class A(object):
+    def fun(self):
+        print 'A'
+
+class B(A):
+    # pass
+    # 子类方法覆盖父类方法
+    def fun(self):
+        print 'B'
+
+b=B()
+b.fun()

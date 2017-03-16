@@ -44,6 +44,10 @@ class Test(object):
 	def class_test(cls):
 		print 'class method'
 
+	# 要在类中使用静态方法，需在类成员函数前面加上 @ staticmethod标记符，
+	# 以表示下面的成员函数是静态函数。
+	# 使用静态方法的好处是，不需要定义实例即可使用这个方法。
+	# 另外，多个实例共享此静态方法。
 	@staticmethod
 	def static_test():
 		print 'static method'

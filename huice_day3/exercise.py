@@ -80,7 +80,7 @@ def taxi_cost(length, waitTime):
         print '等待时间输入不合法'
         return
 
-    if length > 3 and length < 15:
+    if length > 3:
         if (length - 3) % 0.5 == 0:
             cost = cost + (length - 3) / 0.5
         else:
@@ -90,21 +90,10 @@ def taxi_cost(length, waitTime):
                 cost = cost + waitTime / 120
             else:
                 cost = cost + waitTime / 120 + 1
-    elif length >= 15:
-        if (length - 3) % 0.5 == 0:
-            cost = cost + (length - 3) / 0.5
-        else:
-            cost = cost + (length - 3) / 0.5 + 1
-        if waitTime >= 120:
-            if waitTime % 120 == 0:
-                cost = cost + waitTime / 120
-            else:
-                cost = cost + waitTime / 120 + 1
+    if length >= 15:
         cost = cost * 1.5
     return cost
 
 
-print taxi_cost(15, 120)
+print taxi_cost(12, 120)
 
-
-# print type(12).__name__
