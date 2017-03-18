@@ -8,3 +8,7 @@ def dollar2rmb(dollar):
 def rmb2dollar(rmb):
     dollar = rmb / 6.9130
     return dollar
+
+class A():
+    def hello(self):
+        print 'Hello python!'

@@ -140,8 +140,8 @@ class B(A):
     #     print 'B'
 
 
-a = A()
-a.fun()
-
-b = B()
-b.fun()
+# a = A()
+# a.fun()
+#
+# b = B()
+# b.fun()
