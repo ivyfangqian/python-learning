@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74ac6d3e-cd38-46af-831c-e40b5f585fbf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/huice_day4/excel_operation.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/huice_day4/exception.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/huice_day4/file_operation.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/huice_day4/exercise.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/huice_day4/network_programing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/huice_day4/pyh_test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,6 +26,7 @@
     <SUITE FILE_PATH="coverage/pythonTest$loop6.coverage" NAME="loop6 Coverage Results" MODIFIED="1488644135855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/huice-day1" />
     <SUITE FILE_PATH="coverage/pythonTest$exception.coverage" NAME="exception Coverage Results" MODIFIED="1489850635211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/huice_day3" />
     <SUITE FILE_PATH="coverage/pythonTest$exercise.coverage" NAME="exercise Coverage Results" MODIFIED="1489649241301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/huice_day3" />
+    <SUITE FILE_PATH="coverage/pythonTest$pyh_test.coverage" NAME="pyh_test Coverage Results" MODIFIED="1490111001805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/huice_day4" />
     <SUITE FILE_PATH="coverage/pythonTest$time_module.coverage" NAME="time_module Coverage Results" MODIFIED="1489841862580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/huice_day3/module_test" />
     <SUITE FILE_PATH="coverage/pythonTest$huiceday1.coverage" NAME="huiceday1 Coverage Results" MODIFIED="1488600162292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonTest$JustCounter.coverage" NAME="JustCounter Coverage Results" MODIFIED="1489251791626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/huice-day2/class_test" />
@@ -37,6 +38,7 @@
     <SUITE FILE_PATH="coverage/pythonTest$rabbit.coverage" NAME="rabbit Coverage Results" MODIFIED="1489668283528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/huice_day3/class_test" />
     <SUITE FILE_PATH="coverage/pythonTest$module__1_.coverage" NAME="module (1) Coverage Results" MODIFIED="1489506315672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/huice-day3/module-test" />
     <SUITE FILE_PATH="coverage/pythonTest$package.coverage" NAME="package Coverage Results" MODIFIED="1489825898979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/huice_day3/package_test" />
+    <SUITE FILE_PATH="coverage/pythonTest$network_programing.coverage" NAME="network_programing Coverage Results" MODIFIED="1490109035209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/huice_day4" />
     <SUITE FILE_PATH="coverage/pythonTest$condition5__1_.coverage" NAME="condition5 (1) Coverage Results" MODIFIED="1489045772890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/huice-day2" />
     <SUITE FILE_PATH="coverage/pythonTest$condition5.coverage" NAME="condition5 Coverage Results" MODIFIED="1489236441324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/huice-day2" />
     <SUITE FILE_PATH="coverage/pythonTest$json_module.coverage" NAME="json_module Coverage Results" MODIFIED="1489848815977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/huice_day3/module_test" />
@@ -50,31 +52,61 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="file_operation.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/huice_day4/file_operation.py">
+      <file leaf-file-name="http_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/huice_day4/http_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3078">
-              <caret line="114" column="13" lean-forward="false" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
+            <state relative-caret-position="1215">
+              <caret line="45" column="71" lean-forward="false" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="71" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="excel_operation.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="excel_operation.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/huice_day4/excel_operation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1321">
-              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="2187">
+              <caret line="81" column="35" lean-forward="false" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__builtin__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1494736245/__builtin__.py">
+      <file leaf-file-name="exception.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/huice_day4/exception.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11178">
-              <caret line="414" column="41" lean-forward="false" selection-start-line="414" selection-start-column="4" selection-end-line="414" selection-end-column="41" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="network_programing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/huice_day4/network_programing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1323">
+              <caret line="49" column="2" lean-forward="false" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pyh_test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/huice_day4/pyh_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exercise.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/huice_day4/exercise.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -132,7 +164,6 @@
         <option value="$PROJECT_DIR$/huice-day3/module-test/CurrencyConverter.py" />
         <option value="$PROJECT_DIR$/huice-day3/module-test/module.py" />
         <option value="$PROJECT_DIR$/huice_day3/fun_example9.py" />
-        <option value="$PROJECT_DIR$/huice_day3/exercise.py" />
         <option value="$PROJECT_DIR$/huice_day3/class_test/rabbit.py" />
         <option value="$PROJECT_DIR$/huice_day3/class_test/just_ounter.py" />
         <option value="$PROJECT_DIR$/huice_day3/module_test/CurrencyConverter.py" />
@@ -144,6 +175,11 @@
         <option value="$PROJECT_DIR$/huice_day3/exception.py" />
         <option value="$PROJECT_DIR$/huice_day4/file_operation.py" />
         <option value="$PROJECT_DIR$/huice_day4/excel_operation.py" />
+        <option value="$PROJECT_DIR$/huice_day4/http_test.py" />
+        <option value="$PROJECT_DIR$/huice_day3/exercise.py" />
+        <option value="$PROJECT_DIR$/huice_day4/exercise.py" />
+        <option value="$PROJECT_DIR$/huice_day4/network_programing.py" />
+        <option value="$PROJECT_DIR$/huice_day4/pyh_test.py" />
       </list>
     </option>
   </component>
@@ -216,8 +252,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,19 +263,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\huice-git\pythonTest\huice_day4" />
-      <recent name="D:\huice-python\pythonTest\huice_day3\package_test\test" />
-      <recent name="D:\huice-python\pythonTest\huice-day3" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\huice-python\pythonTest\huice-day3\module-test" />
       <recent name="D:\huice-python\pythonTest\huice-day3" />
       <recent name="D:\huice-python\pythonTest\huice-day2\class_test" />
       <recent name="D:\huice-python\pythonTest\huice-day2" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\huice-git\pythonTest\huice_day4" />
+      <recent name="D:\huice-python\pythonTest\huice_day3\package_test\test" />
+      <recent name="D:\huice-python\pythonTest\huice-day3" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.excel_operation">
+  <component name="RunManager" selected="Python.pyh_test">
     <configuration default="false" name="exception" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -254,42 +290,6 @@
       <module name="pythonTest" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/huice_day3/exception.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="time_module" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/huice_day3/module_test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pythonTest" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/huice_day3/module_test/time_module.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="json_module" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/huice_day3/module_test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pythonTest" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/huice_day3/module_test/json_module.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -326,6 +326,42 @@
       <module name="pythonTest" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/huice_day4/excel_operation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="network_programing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/huice_day4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pythonTest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/huice_day4/network_programing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="pyh_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/huice_day4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pythonTest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/huice_day4/pyh_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -546,18 +582,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.exception" />
-      <item index="1" class="java.lang.String" itemvalue="Python.time_module" />
-      <item index="2" class="java.lang.String" itemvalue="Python.json_module" />
-      <item index="3" class="java.lang.String" itemvalue="Python.file_operation" />
-      <item index="4" class="java.lang.String" itemvalue="Python.excel_operation" />
+      <item index="1" class="java.lang.String" itemvalue="Python.file_operation" />
+      <item index="2" class="java.lang.String" itemvalue="Python.excel_operation" />
+      <item index="3" class="java.lang.String" itemvalue="Python.network_programing" />
+      <item index="4" class="java.lang.String" itemvalue="Python.pyh_test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.excel_operation" />
-        <item index="1" class="java.lang.String" itemvalue="Python.file_operation" />
-        <item index="2" class="java.lang.String" itemvalue="Python.exception" />
-        <item index="3" class="java.lang.String" itemvalue="Python.json_module" />
-        <item index="4" class="java.lang.String" itemvalue="Python.time_module" />
+        <item index="0" class="java.lang.String" itemvalue="Python.pyh_test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.network_programing" />
+        <item index="2" class="java.lang.String" itemvalue="Python.excel_operation" />
+        <item index="3" class="java.lang.String" itemvalue="Python.file_operation" />
+        <item index="4" class="java.lang.String" itemvalue="Python.exception" />
       </list>
     </recent_temporary>
   </component>
@@ -596,7 +632,21 @@
       <option name="project" value="LOCAL" />
       <updated>1489649009272</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="作业题答案">
+      <created>1490105105020</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1490105105020</updated>
+    </task>
+    <task id="LOCAL-00005" summary="作业题答案">
+      <created>1490105157067</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1490105157067</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -617,13 +667,13 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15245202" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15565032" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20670392" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45921788" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -655,41 +705,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/huice_day3/class_test/just_ounter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/huice_day2/loop6.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3618">
-          <caret line="134" column="0" lean-forward="false" selection-start-line="134" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/huice_day2/function7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/huice_day1/operator4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/huice_day1/data_type3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8127">
-          <caret line="301" column="32" lean-forward="false" selection-start-line="301" selection-start-column="32" selection-end-line="301" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/huice_day2/condition5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -799,13 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
           <caret line="172" column="27" lean-forward="true" selection-start-line="172" selection-start-column="27" selection-end-line="172" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/huice_day3/exercise.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -935,18 +943,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/huice_day4/exception.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1494736245/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11178">
           <caret line="414" column="41" lean-forward="false" selection-start-line="414" selection-start-column="4" selection-end-line="414" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -961,14 +961,67 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3078">
           <caret line="114" column="13" lean-forward="false" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huice_day3/exercise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="974">
+          <caret line="67" column="13" lean-forward="true" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/huice_day4/excel_operation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1321">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="2187">
+          <caret line="81" column="35" lean-forward="false" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huice_day4/exception.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python27/Lib/urllib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="71" column="4" lean-forward="false" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huice_day4/http_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="45" column="71" lean-forward="false" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huice_day4/network_programing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1323">
+          <caret line="49" column="2" lean-forward="false" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huice_day4/exercise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huice_day4/pyh_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
