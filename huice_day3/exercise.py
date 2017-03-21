@@ -58,7 +58,17 @@ for number in range(100, 1000):
 # 三分钟内 0.2元
 # 三分钟后每增加一分钟增加0.2元，不足一分钟按照一分钟算
 # 要求编写程序，给定一个通话时间（单位：s），计算出收费金额
-
+chat_time = 120
+mobile_cost = 0.2
+if chat_time > 0 and chat_time<=180:
+    mobile_cost = 0.2
+    if chat_time > 180:
+        if (chat_time - 180) % 60 == 0:
+            mobile_cost = mobile_cost + 0.2 * ((chat_time - 180) // 60)
+        else:
+            mobile_cost = mobile_cost + 0.2 * ((chat_time - 180) // 60) + 0.2
+    else:
+        print mobile_cost
 
 # 6、某市的出租车计费标准为：
 # 3公里内10元，3公里以后每增加0.5公里加收1元，每等待2分钟加收1元
