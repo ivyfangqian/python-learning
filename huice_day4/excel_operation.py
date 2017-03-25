@@ -49,15 +49,15 @@ sheetw.write(0,1,'hello huice')
 sheetw.write(0,0,18)
 
 # 设置格式
-style = xlwt.XFStyle()
-font = xlwt.Font()
-font.name = 'Times New Roman'
-font.bold = True
-
-style.font = font
-style2 = xlwt.easyxf('pattern:pattern solid,fore_colour red;font:bold on;')
-sheetw.write(0, 0, 'leili', style)
-sheetw.write(0, 1, 18, style2)
+# style = xlwt.XFStyle()
+# font = xlwt.Font()
+# font.name = 'Times New Roman'
+# font.bold = True
+#
+# style.font = font
+# style2 = xlwt.easyxf('font:bold on;')
+# sheetw.write(0, 0, 'leili', style)
+# sheetw.write(0, 1, 18, style2)
 
 # 保存文件
 wkbw.save('D:\\test\\test01.xls')

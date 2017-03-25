@@ -38,6 +38,9 @@
 # ZeroDivisionError:除数为0
 # print 5/0
 
+# IO错误
+# file = open('aaa.txt')
+
 # 如何检测并处理这些异常：try
 # 两种方法
 # 第一种：
@@ -103,6 +106,14 @@
 # finally:
 #     print '无论如何，我都会出现'
 
+# 例如我们最后一定要关闭文件
+# try:
+#     file = open('d:\\test\\test01.txt')
+#     file.write('aaaaaaaaaa')
+# except IOError as ioerror:
+#     print ioerror
+# finally:
+#     file.close()
 
 # 如果有函数调用，什么时候捕获异常好呢
 # 使用try...except捕获错误还有一个巨大的好处，就是可以跨越多层调用，
