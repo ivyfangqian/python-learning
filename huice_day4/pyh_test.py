@@ -17,4 +17,5 @@ for i in range(len(list)):
     for j in range(3):
         tr2 << td(list[i][j])
 
+		
 page.printOut('D:\\test\\test.html')
